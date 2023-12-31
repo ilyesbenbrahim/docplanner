@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    font-family: sans-serif;
+  
+  }
+  header {
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 60px;
+  }
+  header img{
+    width: 200px;
+    height: 30px;
+  }
+  nav ul{
+    display: flex;
+    gap: 20px;
+  }
+  nav ul li {
+    list-style: none;
+    font-size: 18px;
+  }
+  a{
+    color: black;
+    text-decoration: none;
+  }
+  #About,#Career:hover,#Departments:hover
+  {
+    color: #00b39b;
+}
+#Career,#Departments{
+    color: rgb(173, 173, 199);
+}
+  section img{
+    width: 30px;
+    height: 30px;
+  }
+  section {
+    margin-top: 10px;
+    text-align: center;
+    height: 100px;
+    padding: 40px;
+    /* display: flex; */
+    flex-direction: column;
+    align-items: center;
+  }
+
+  section h1 {
+    font-weight: bolder;
+    letter-spacing: 1px;
+    color:#00b39b;
+    padding: 25px;
+  }
+.article-p{
+    color: #747474;
+  font-size: 16px;
+  display: flex;
+  padding-left: 115px;
+  padding-right: 100px; 
+}
+.for1 {
+    background-color: #00ccb1;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 2em 2em 0;
+    justify-content: space-between;
+    height: 297px; 
+    width: 220px;
+  }
+  .for2 {
+    background-color: #3d83df;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 2em 2em 0;
+    justify-content: space-between;
+    height: 297px; 
+    width: 220px;
+  }
+  .for3 {
+    background-color: #1b2734;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 2em 2em 0;
+    justify-content: space-between;
+    height: 297px; 
+    width: 220px;
+  }
+  .forsection {
+    display: flex;
+    gap: 2.5rem;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 1.375em 1.25em 0;
+    font-size: 1.5em;
+    font-weight: 300;
+    line-height: 1.2;
+    margin: 12rem auto 2.5rem;
+    color: #fff;
+    /* font-family: Work Sans, Arial, sans-serif; */
+    max-width: 1015px;
+    padding: 0 20px;
+    /* position: relative; */
+  }
+  .for1 select {
+    background-color: #00ccb1;
+    border: none;
+    text-decoration: underline;
+    margin-bottom: 30px;
+    font-style: bold;
+  }
+  .for2 select {
+    background-color: #3d83df;
+    border: none;
+    text-decoration: underline;
+    margin-bottom: 30px;
+    font-style: bold;
+  }
+  .for3 select {
+    background-color: #1b2734;
+    border: none;
+    text-decoration: underline;
+    margin-bottom: 30px;
+    font-style: bold;
+  }
+  .for1 #for1title,
+  .for2 #for2title,
+  .for3 #for3title {
+    font-size: 1.625em;
+    font-weight: 400;
+    color: #fff;
+    margin: 0.3em 0;
+    font-family: Work Sans, Arial, sans-serif;
+  }
+  .forsection img {
+    width: 25px;
+    height: auto;
+  }
+  
+    
